@@ -1,0 +1,87 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.fav-buttons {
+	font-size: 15px;
+	background-color: yellow;
+	height: 40px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.fav-buttons:hover {
+	background-color: rgb(189, 255, 8);
+}
+
+#randomizer {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	flex-direction: column;
+}
+
+#random-button {
+	font-size: 15px;
+	background-color: orange;
+	height: 50px;
+	width: 180;
+	border-radius: 30px;
+}
+
+#random-button:hover {
+	background-color: yellow;
+	height: 55px;
+	width: 190px;
+	border-radius: 35px;
+}
+
+#random-button:active {
+	font-size: 15px;
+	background-color: orange;
+	height: 50px;
+	width: 180px;
+	border-radius: 30px;
+}
+
+.random {
+	border: 2px green solid;
+	width: fit-content;
+	border-radius: 10px;
+	background-color: palegreen;
+}

@@ -1,0 +1,10 @@
+The internet is like a very, very big network of computers from all over the world.
+It's a way for people to connect and communicate or share info to one another.
+Basically a bunch of computers plugged into eachother but on a huge scale, and without wires.
+If you wanted to send a message to send a message to someone, the message would go to your
+router. which would "route" it to that someone's computer.
+
+When you click on a link, you are sending a request to find the ip of that url. The browser begins searchng
+for that ip address to get you to the site. It first looks in your local cache, then your local router, then your ISP,
+then finally if all else fails it looks in the root servers on the Internet. Whenever it finds the ip address linked with
+the url, it well send it back to you and make a request to that ip to go to that site.
